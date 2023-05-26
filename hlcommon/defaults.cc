@@ -660,15 +660,15 @@ http://www.htdig.org/",
   the complete document. \
 "}
   ,
-  {"end_hightight", "</strong>",
+  {"end_highlight", "</strong>",
    "string", "hlsearch", "", "3.1.4", "Presentation:Text",
-   "end_hightight: &lt;/font&gt;", " \
+   "end_highlight: &lt;/font&gt;", " \
   When excerpts are displayed in the search output, matched \
-  words will be hightighted using <a href=\"#start_hightight\"> \
-  start_hightight</a> and this string. \
-  You should ensure that hightighting tags are balanced, \
+  words will be highlighted using <a href=\"#start_highlight\"> \
+  start_highlight</a> and this string. \
+  You should ensure that highlighting tags are balanced, \
   that is, this string should close any formatting \
-  tag opened by start_hightight. \
+  tag opened by start_highlight. \
 "}
   ,
   {"endings_affix_file", "${common_dir}/english.aff",
@@ -747,16 +747,16 @@ http://www.htdig.org/",
    "excerpt_length: 500", " \
   This is the maximum number of characters the displayed \
   excerpt will be limited to. The first matched word will \
-  be hightighted in the middle of the excerpt so that there is \
+  be highlighted in the middle of the excerpt so that there is \
   some surrounding context.<br> \
   The <em><a href=\"#start_ellipses\"> \
   start_ellipses</a></em> and \
   <em><a href=\"#end_ellipses\">end_ellipses</a></em> are used to \
   indicate that the document contains text before and \
   after the displayed excerpt respectively. \
-  The <em><a href=\"#start_hightight\">start_hightight</a></em> and \
-  <em><a href=\"#end_hightight\">end_hightight</a></em> are used to \
-  specify what formatting tags are used to hightight matched words. \
+  The <em><a href=\"#start_highlight\">start_highlight</a></em> and \
+  <em><a href=\"#end_highlight\">end_highlight</a></em> are used to \
+  specify what formatting tags are used to highlight matched words. \
 "}
   ,
   {"excerpt_show_top", "false",
@@ -1879,7 +1879,7 @@ http://www.htdig.org/",
   current page is shown in the page list without a hypertext link, \
   while entries from the <a href=\"#page_number_text\"> \
   page_number_text</a> list are used for the links to other pages. \
-  The text strings can contain HTML tags to hightight page numbers \
+  The text strings can contain HTML tags to highlight page numbers \
   or embed images. The strings need to be quoted if they contain \
   spaces. \
 "}
@@ -2003,7 +2003,7 @@ http://www.htdig.org/",
   while an entry from the <a href=\"#no_page_number_text\"> \
   no_page_number_text</a> list is used for the current page, as the \
   current page is shown in the page list without a hypertext link. \
-  The text strings can contain HTML tags to hightight page numbers \
+  The text strings can contain HTML tags to highlight page numbers \
   or embed images. The strings need to be quoted if they contain \
   spaces. \
 "}
@@ -2658,15 +2658,15 @@ http://www.htdig.org/",
   the complete document. \
 "}
   ,
-  {"start_hightight", "<strong>",
+  {"start_highlight", "<strong>",
    "string", "hlsearch", "", "3.1.4", "Presentation:Text",
-   "start_hightight: &lt;font color=\"#FF0000\"&gt;", " \
+   "start_highlight: &lt;font color=\"#FF0000\"&gt;", " \
   When excerpts are displayed in the search output, matched \
-  words will be hightighted using this string and \
-  <a href=\"#end_hightight\"> end_hightight</a>. \
-  You should ensure that hightighting tags are balanced, \
+  words will be highlighted using this string and \
+  <a href=\"#end_highlight\"> end_highlight</a>. \
+  You should ensure that highlighting tags are balanced, \
   that is, any formatting tags that this string \
-  opens should be closed by end_hightight. \
+  opens should be closed by end_highlight. \
 "}
   ,
   {"startmonth", "",

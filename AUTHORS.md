@@ -16,3 +16,4 @@ GitHub's automated list: [graphs/contributors](https://github.com/solbu/hldig/gr
 | [Debasish Das](https://github.com/Debu44) | |
 | [tauheed25](https://github.com/tauheed25) | |
 | [Elliott Alexander](https://github.com/escottalexander) | |
+| [Ian West](https://github.com/iandiver) ||
